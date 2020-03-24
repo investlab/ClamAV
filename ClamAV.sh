@@ -3,8 +3,8 @@
 mkdir -p /var/log/clamav/
 LOGFILE="/var/log/clamav/clamav-$(date +'%Y-%m-%d').log";
 EMAIL_MSG="Xem log trong file dinh kem.";
-EMAIL_FROM="system@peacesoft.net";
-EMAIL_TO="thaopt@peacesoft.net";
+EMAIL_FROM="clamav@nextsec.vn";
+EMAIL_TO="thaopt@nextsec.vn";
 DIRTOSCAN="/var/www /var/vmail";
 
 for S in ${DIRTOSCAN}; do
